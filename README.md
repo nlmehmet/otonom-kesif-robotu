@@ -19,7 +19,7 @@ Veri akışı: sensörler -> SLAM -> harita + konum -> Nav2 -> `cmd_vel` -> Gaze
 ## Yol haritası
 
 - [x] Ortam kurulumu ve duman testi (Gazebo, /scan, RViz2)
-- [ ] Manuel SLAM ile harita çıkarma
+- [x] Manuel SLAM ile harita çıkarma (maps/ klasöründe)
 - [ ] Kayıtlı haritada Nav2 ile otonom gezinme
 - [ ] Frontier exploration ile otonom keşif
 - [ ] Dinamik engeller ve parametre ayarı
@@ -28,3 +28,6 @@ Veri akışı: sensörler -> SLAM -> harita + konum -> Nav2 -> `cmd_vel` -> Gaze
 ## Ortam
 
 Ubuntu 22.04, ROS 2 Humble, Gazebo Classic 11.10.2, The Construct (bulut ortamı)
+
+## Durum notu
+Nav2 kayıtlı haritada çalışıyor, kısa hedefler başarılı. Sıradaki: daha uzun hedefler ve frontier exploration.
